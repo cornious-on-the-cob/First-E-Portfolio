@@ -143,4 +143,9 @@ nav {
     flex: 1;
     display: flex;
     align-items: center;
+    padding: 60px;
+}
+
+.typing__uncode {
+    width: 100%;
 }
