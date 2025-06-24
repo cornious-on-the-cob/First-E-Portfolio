@@ -42,8 +42,8 @@ a {
 }
 
 i:hover {
-    opacity: 0.7;
-    transition: opacity 300ms ease;
+  opacity: 0.7;
+  transition: opacity 300ms ease;
 }
 
 .link__hover-effect {
@@ -177,15 +177,15 @@ nav {
 }
 
 @keyframes animate-profile-picture {
-    0% {
-        transform: scale(0);
-    }
-    80% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .about-me__picture {
@@ -205,20 +205,20 @@ nav {
 }
 
 .emoji {
-    display: inline-block;
-    animation: animate-wave 500ms infinite ease-in-out;
+  display: inline-block;
+  animation: animate-wave 500ms infinite ease-in-out;
 }
 
 @keyframes animate-wave {
-    0% {
-        transform: rotate(0);
-    }
-    50% {
-        transform: rotate(30deg);
-    }
-    100% {
-        transform: rotate(0);
-    }
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .about-me__link {
@@ -229,18 +229,18 @@ nav {
 }
 
 .about-me__links {
-    animation: fade-up 600ms 800ms backwards;
+  animation: fade-up 600ms 800ms backwards;
 }
 
 @keyframes fade-up {
-    0% {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .about-me__img--container {
@@ -252,12 +252,12 @@ nav {
 }
 
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .typing__uncode {
@@ -463,39 +463,37 @@ nav {
   opacity: 1;
 }
 
-
 /* For Large Phones and Tablets*/
 
-
 @media (max-width: 768px) {
-    nav {
-        height: 68px;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    .about-me__info--para {
-        font-size: 18px;
-    }
-    .language {
-       width: calc(100% / 2); 
-    }
-    .project__description--para {
-        font-size: 12px;
-    }
-    .project__description {
-        left: 30px;
-        padding-right: 30px;
-    }
+  nav {
+    height: 68px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .about-me__info--para {
+    font-size: 18px;
+  }
+  .language {
+    width: calc(100% / 2);
+  }
+  .project__description--para {
+    font-size: 12px;
+  }
+  .project__description {
+    left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /* For Small Phones*/
 
 @media (max-width: 480px) {
-    .nav__link:not(:last-child) {
-        display: none;
-    }
-    .project__description--para {
-        display: none;
-    }
+  .nav__link:not(:last-child) {
+    display: none;
+  }
+  .project__description--para {
+    display: none;
+  }
 }
