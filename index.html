@@ -17,24 +17,26 @@
       <nav>
         <div class="personal__logo">Lorea De La Torre</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
               href="#languages"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              class="nav__link--anchor link__hover-effect link__hover-effect"
               >Languages</a
             >
           </li>
 
-          <li>
+          <li class="nav__link">
             <a
               href="#projects"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              class="nav__link--anchor link__hover-effect link__hover-effect"
               >Projects</a
             >
           </li>
 
-          <li>
-            <a href="mailto:mailto:ld6057a@american.edu" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a
+              href="mailto:ld6057a@american.edu"
+              class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -55,7 +57,7 @@
                 />
               </figure>
               <h1 class="about-me__info--title">
-                Hi! I'm <span class="text--green">Lorea De La Torre</span>
+                Hi! I'm <span class="text--green">Lorea De La Torre</span>&nbsp<span class="emoji">👋</span>
               </h1>
               <p class="about-me__info--para">
                 I'm an
@@ -82,7 +84,10 @@
                 >
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="mailto:ld6057a@american.edu" class="about-me__link" target="_blank">
+                <a
+                  href="mailto:ld6057a@american.edu"
+                  class="about-me__link"
+                >
                   <i class="fa-solid fa-envelope"></i>
                 </a>
                 <a href="" class="about-me__link" target="_blank">
@@ -169,8 +174,6 @@
           </h1>
 
           <ul class="project__list">
-
-
             <!-- When you get more projects copy the <li> -->
             <li class="project">
               <div class="project__wrapper">
@@ -179,7 +182,6 @@
                   alt="FES Website"
                   class="project__img"
                 />
-
 
                 <div class="project__description">
                   <h3 class="project__description--title">FES Website</h3>
@@ -204,13 +206,8 @@
                     </a>
                   </div>
                 </div>
-
-
-
               </div>
             </li>
-
-
           </ul>
         </div>
       </div>
@@ -219,49 +216,46 @@
     <!-- FOOTER -->
 
     <footer class="footer">
-        <div class="row footer__row">
-            <a href="#aboutme" class="footer__anchor">
-                <figure class="footer__logo--wrapper">
-                    <img src="assets/logo.png" class="footer__logo--img" alt="Logo">
-                </figure>
+      <div class="row footer__row">
+        <a href="#aboutme" class="footer__anchor">
+          <figure class="footer__logo--wrapper">
+            <img src="assets/logo.png" class="footer__logo--img" alt="Logo" />
+          </figure>
 
-                <span class="footer__logo--popper"> 
-                <i class="fa-solid fa-arrow-up"></i>    
-                Top
-                </span>
+          <span class="footer__logo--popper">
+            <i class="fa-solid fa-arrow-up"></i>
+            Top
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/cornious-on-the-cob"
+            class="footer__social--link link__hover-effect link__hover-effect"
+            target="_blank"
+            >GitHub</a
+          >
 
-            </a>
-            <div class="footer__social--list">
+          <a
+            href="https://www.linkedin.com/in/lorea-de-la-torre-74a18a34a/"
+            class="footer__social--link link__hover-effect link__hover-effect"
+            target="_blank"
+            >LinkedIn</a
+          >
 
-                <a href="https://github.com/cornious-on-the-cob" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white
-                " target="_blank">GitHub</a>
+          <a
+            href="mailto:ld6057a@american.edu"
+            class="footer__social--link link__hover-effect link__hover-effect"
+            >Email</a
+          >
 
-                <a href="https://www.linkedin.com/in/lorea-de-la-torre-74a18a34a/" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white
-                " target="_blank">LinkedIn</a>
-
-                <a href="mailto:ld6057a@american.edu" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white
-                " target="_blank">Email</a>
-
-                <a href="" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white
-                " target="_blank">Resume</a>
-
-            </div>
-
-
+          <a
+            href=""
+            class="footer__social--link link__hover-effect link__hover-effect"
+            target="_blank"
+            >Resume</a
+          >
         </div>
+      </div>
     </footer>
-
   </body>
 </html>
